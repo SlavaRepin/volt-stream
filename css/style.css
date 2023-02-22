@@ -699,7 +699,7 @@ input::placeholder {
   font-weight: 500;
 }
 
-.page__map {
+.map-page {
   overflow: auto;
 }
 
@@ -747,6 +747,10 @@ input::placeholder {
   visibility: visible;
   left: 2%;
   top: 12%;
+}
+
+.map-page iframe {
+  width: 100%;
 }
 
 .contacts {
